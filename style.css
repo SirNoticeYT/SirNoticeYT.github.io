@@ -1,0 +1,57 @@
+.profile-picture {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: 50px;
+}
+
+body {
+  background: #800000;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+}
+
+.header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.social-media-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.social-media-button {
+  width: 350px;
+  height: 44px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  transition: all 0.2s ease;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.social-media-button img {
+  display: inline-block;
+  float: left;
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  align-self: center;
+}
+
+.social-media-button:hover {
+  transform: scale(1.1);
+}
